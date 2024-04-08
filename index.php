@@ -1,33 +1,25 @@
 <?php
 session_start();
-
 if (!isset($_SESSION['expression'])) {
     $_SESSION['expression'] = '';
 }
-
 if (isset($_POST['input'])) {
     $_SESSION['expression'] .= $_POST['input'];
 } 
-
 if (isset($_POST['operator'])) {
     $_SESSION['expression'] .= ' ' . $_POST['operator'] . ' ';
 } 
-
 if (isset($_POST['dot'])) {
     $_SESSION['expression'] .= '.';
 }
-
-
 if (isset($_POST['clear'])) {
     $_SESSION['expression'] = '';
 }
-
 if (isset($_POST['equal'])) {
     $result = eval('return ' . $_SESSION['expression'] . ';');
     $_SESSION['expression'] = $result;
 }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
