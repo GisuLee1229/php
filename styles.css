@@ -5,6 +5,7 @@ body{
     background-repeat:repeat;
     font-family: Consolas, monospace;
 }
+
 .calc{
     text-align:center;
     margin: auto;
@@ -19,6 +20,7 @@ body{
     border-radius: 25px;
     box-shadow: 0 5px 40px black;
 }
+
 .maininput{
     margin-top:80px;
     background-color: #ffffff;
@@ -36,6 +38,7 @@ body{
     border:5px solid black;
     border-radius:15px;
 }
+
 .numbtn{
     padding: 25px 30px;
     border-radius: 10px;
@@ -43,10 +46,12 @@ body{
     background-color: #000000;
     color:rgb(255, 255, 255);
 }
+
 .numbtn:hover{
     background-color: #102731;
     color: black;
 }
+
 .calbtn{
     padding: 25px 30px;
     border-radius: 10px;
@@ -54,10 +59,12 @@ body{
     background-color: #000000;
     color:white;
 }
+
 .calbtn:hover{
     background-color: #102731;
     color: white;
 }
+
 .c{
     padding: 25px 30px;
     border-radius: 10px;
@@ -66,10 +73,12 @@ body{
     color:rgb(255, 255, 255);
     float:left;   
 }
+
 .c:hover{
     background-color:  #102731;
     color: #EEEEEE;
 }
+
 .equal{
     padding: 25px 30px;
     border-radius: 10px;
@@ -77,10 +86,12 @@ body{
     background-color: #000000;
     color:white;
 }
+
 .equal:hover{
     background-color: #102731;
     color: white;
 }
+
 h2{
     color:black;
     font-size:x-large;
@@ -103,12 +114,14 @@ h2{
     transition: transform 0.2s ease;
     margin: 5px;
 }
+
 .numbtn:hover,
 .calbtn:hover,
 .c:hover,
 .equal:hover {
     transform: translateY(2px);
 }
+
 .numbtn:active,
 .calbtn:active,
 .c:active,
