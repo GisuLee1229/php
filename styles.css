@@ -1,0 +1,117 @@
+body{
+    background-image: url(sky.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:repeat;
+    font-family: Consolas, monospace;
+}
+.calc{
+    text-align:center;
+    margin: auto;
+    background-image: url(sky.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:repeat;
+    font-family: Consolas, monospace;
+    border:5px solid black;
+    width: 28%;
+    height: 650px; 
+    border-radius: 25px;
+    box-shadow: 0 5px 40px black;
+}
+.maininput{
+    margin-top:80px;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    height: 60px;
+    width: 89%;
+    font-size: 50px;
+    text-align:right;
+    color: rgb(0, 0, 0);
+    font-weight: 00;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    pointer-events: none;
+    border:5px solid black;
+    border-radius:15px;
+}
+.numbtn{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+}
+.numbtn:hover{
+    background-color: #102731;
+    color: black;
+}
+.calbtn{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #000000;
+    color:white;
+}
+.calbtn:hover{
+    background-color: #102731;
+    color: white;
+}
+.c{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+    float:left;   
+}
+.c:hover{
+    background-color:  #102731;
+    color: #EEEEEE;
+}
+.equal{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #000000;
+    color:white;
+}
+.equal:hover{
+    background-color: #102731;
+    color: white;
+}
+h2{
+    color:black;
+    font-size:x-large;
+    text-align:center;
+    justify-self: center;
+    margin-top:10px;
+    margin-bottom:20px;
+    text-align:center;
+    margin-top:35px;
+    border-radius:5px;
+}
+
+.numbtn,
+.calbtn,
+.c,
+.equal {
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: medium;
+    transition: transform 0.2s ease;
+    margin: 5px;
+}
+.numbtn:hover,
+.calbtn:hover,
+.c:hover,
+.equal:hover {
+    transform: translateY(2px);
+}
+.numbtn:active,
+.calbtn:active,
+.c:active,
+.equal:active {
+    transform: translateY(4px);
+}
